@@ -1,0 +1,4 @@
+Document containing references to the used assets:
+Background: https://vrozenfeld.itch.io/desert-landscape-with-dunes-background
+UI: https://penzilla.itch.io/basic-gui-bundle
+Objects, Animals: https://comigo.itch.io/farm-puzzle-animals
