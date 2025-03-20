@@ -2,3 +2,9 @@ Document containing references to the used assets:
 Background: https://vrozenfeld.itch.io/desert-landscape-with-dunes-background
 UI: https://penzilla.itch.io/basic-gui-bundle
 Objects, Animals: https://comigo.itch.io/farm-puzzle-animals
+
+
+
+Audios:
+https://pixabay.com/sound-effects/opening-metal-door-98518/
+https://pixabay.com/sound-effects/drink-pour-7169/
