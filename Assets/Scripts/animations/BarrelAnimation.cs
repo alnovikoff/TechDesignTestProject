@@ -7,12 +7,15 @@ public class BarrelAnimation : MonoBehaviour
     private Animator _animator;
     private AudioSource _aus;
 
+    private ParticleSystem particle;
+
     [SerializeField] private List<AudioClip> clips;
 
     void Start()
     {
         _animator = GetComponent<Animator>();
         _aus = GetComponent<AudioSource>();
+        particle = this.gameObject.transform.GetChild(1).GetComponent<ParticleSystem>();
     }
 
     void OnMouseDown()
@@ -30,5 +33,6 @@ public class BarrelAnimation : MonoBehaviour
     {
         _aus.clip = clips[1];
         _aus.Play();
+        particle.Play();
     }
 }
