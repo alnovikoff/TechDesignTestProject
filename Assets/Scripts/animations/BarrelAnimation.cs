@@ -33,13 +33,15 @@ public class BarrelAnimation : MonoBehaviour
     void MetalSoundPlay()
     {
         _aus.clip = clips[0];
-        _aus.Play();
+        //_aus.Play();
+        _aus.PlayOneShot(clips[0]);
     }
 
     void PourSoundPlay()
     {
         _aus.clip = clips[1];
-        _aus.Play();
+        //_aus.Play();
+        _aus.PlayOneShot(clips[1]);
         particle.Play();
     }
 }

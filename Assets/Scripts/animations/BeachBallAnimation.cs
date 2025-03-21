@@ -31,6 +31,7 @@ public class BeachBallAnimation : MonoBehaviour
     void JumpSoundPlay()
     {
         _aus.clip = clips[0];
-        _aus.Play();
+        //_aus.Play();
+        _aus.PlayOneShot(clips[0]);
     }
 }

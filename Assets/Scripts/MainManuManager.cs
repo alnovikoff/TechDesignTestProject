@@ -51,7 +51,7 @@ public class MainManuManager : MonoBehaviour
         Application.Quit();
     }
 
-        public void SwitchLanguage()
+    public void SwitchLanguage()
     {
         if (!LocalizationSettings.InitializationOperation.IsDone) 
         {
@@ -59,13 +59,10 @@ public class MainManuManager : MonoBehaviour
             return;
         }
 
-        // Get total number of locales
         int localeCount = LocalizationSettings.AvailableLocales.Locales.Count;
         
-        // Cycle through locales (0 → 1 → 2 → 3 → back to 0)
         currentLocaleIndex = (currentLocaleIndex + 1) % localeCount;
         
-        // Apply new locale
         LocalizationSettings.SelectedLocale = LocalizationSettings.AvailableLocales.Locales[currentLocaleIndex];
 
         Debug.Log("Switched to: " + LocalizationSettings.SelectedLocale.LocaleName);

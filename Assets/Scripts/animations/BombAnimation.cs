@@ -35,7 +35,8 @@ public class BombAnimation : MonoBehaviour
     void FireSoundPlay()
     {
         _aus.clip = clips[0];
-        _aus.Play();
+        _aus.PlayOneShot(clips[0]);
+        //_aus.Play();
         particle1.Play();
         particle2.Play();
     }
@@ -43,11 +44,13 @@ public class BombAnimation : MonoBehaviour
     void ExplosionPlay()
     {
         _aus.clip = clips[1];
-        _aus.Play();
+        _aus.PlayOneShot(clips[1]);
+        //_aus.Play();
     }
     void FallSoundPlay()
     {
         _aus.clip = clips[2];
-        _aus.Play();
+        _aus.PlayOneShot(clips[2]);
+        //_aus.Play();
     }
 }

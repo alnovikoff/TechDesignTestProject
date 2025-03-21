@@ -29,12 +29,14 @@ public class HoleAnimation : MonoBehaviour
     public void PlayUp()
     {
         _aus.clip = clips[0];
-        _aus.Play();
+        _aus.PlayOneShot(clips[0]);
+        //_aus.Play();
     }
 
     public void PlayDown()
     {
         _aus.clip = clips[1];
-        _aus.Play();
+        _aus.PlayOneShot(clips[1]);
+        //_aus.Play();
     }
 }
