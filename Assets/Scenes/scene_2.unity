@@ -141,6 +141,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 333815280}
     m_Modifications:
+    - target: {fileID: -2749676148887510239, guid: ddc8fb9ae8ee58a4ab137f84eb04cb2f, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: -2749676148887510239, guid: ddc8fb9ae8ee58a4ab137f84eb04cb2f, type: 3}
+      propertyPath: spriteName
+      value: cross_normal
+      objectReference: {fileID: 0}
     - target: {fileID: 341343695004821907, guid: ddc8fb9ae8ee58a4ab137f84eb04cb2f, type: 3}
       propertyPath: m_Name
       value: back_button
@@ -231,7 +239,7 @@ PrefabInstance:
       objectReference: {fileID: 1745177374}
     - target: {fileID: 8517249400765963992, guid: ddc8fb9ae8ee58a4ab137f84eb04cb2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnReplayButtonPressed
+      value: OnExitButtonPressed
       objectReference: {fileID: 0}
     - target: {fileID: 8517249400765963992, guid: ddc8fb9ae8ee58a4ab137f84eb04cb2f, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
@@ -292,6 +300,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 595022770}
     m_Modifications:
+    - target: {fileID: 4076845203161083153, guid: 093b8ef6a8329b94ab170af385dc9fb2, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 4076845203161083153, guid: 093b8ef6a8329b94ab170af385dc9fb2, type: 3}
+      propertyPath: spriteName
+      value: boulders
+      objectReference: {fileID: 0}
     - target: {fileID: 5010140090075224392, guid: 093b8ef6a8329b94ab170af385dc9fb2, type: 3}
       propertyPath: m_LocalPosition.x
       value: 7.28
@@ -476,6 +492,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5273711901080299997, guid: a3b78ca4d9b111742a59106cd4049c82, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 5273711901080299997, guid: a3b78ca4d9b111742a59106cd4049c82, type: 3}
+      propertyPath: spriteName
+      value: replay_normal
+      objectReference: {fileID: 0}
     - target: {fileID: 7759512051175485498, guid: a3b78ca4d9b111742a59106cd4049c82, type: 3}
       propertyPath: m_Name
       value: replay_button
@@ -486,7 +510,7 @@ PrefabInstance:
       objectReference: {fileID: 1745177374}
     - target: {fileID: 8768495410321521374, guid: a3b78ca4d9b111742a59106cd4049c82, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
-      value: OnExitButtonPressed
+      value: OnReplayButtonPressed
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -779,6 +803,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: dnger_warn_3
       objectReference: {fileID: 0}
+    - target: {fileID: 3240623602082183141, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 3240623602082183141, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
+      propertyPath: spriteName
+      value: dnger_warn
+      objectReference: {fileID: 0}
     - target: {fileID: 3555094013633952506, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
       propertyPath: m_LocalScale.x
       value: 1.1
@@ -958,6 +990,14 @@ PrefabInstance:
     - target: {fileID: 2435897794652147237, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
       propertyPath: m_Name
       value: dnger_warn_2
+      objectReference: {fileID: 0}
+    - target: {fileID: 3240623602082183141, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 3240623602082183141, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
+      propertyPath: spriteName
+      value: dnger_warn
       objectReference: {fileID: 0}
     - target: {fileID: 3555094013633952506, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
       propertyPath: m_LocalScale.x
@@ -1148,6 +1188,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 595022770}
     m_Modifications:
+    - target: {fileID: 4076845203161083153, guid: 093b8ef6a8329b94ab170af385dc9fb2, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 4076845203161083153, guid: 093b8ef6a8329b94ab170af385dc9fb2, type: 3}
+      propertyPath: spriteName
+      value: boulders
+      objectReference: {fileID: 0}
     - target: {fileID: 5010140090075224392, guid: 093b8ef6a8329b94ab170af385dc9fb2, type: 3}
       propertyPath: m_LocalScale.x
       value: -0.70875
@@ -1314,6 +1362,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: dnger_warn
       objectReference: {fileID: 0}
+    - target: {fileID: 3240623602082183141, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 3240623602082183141, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
+      propertyPath: spriteName
+      value: dnger_warn
+      objectReference: {fileID: 0}
     - target: {fileID: 3555094013633952506, guid: 56ab93bc571491649b2d685675a25bcf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.52870035
@@ -1411,6 +1467,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 9024277725079867252, guid: 0e104f936cb56cb40aa57378da1810f6, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 9024277725079867252, guid: 0e104f936cb56cb40aa57378da1810f6, type: 3}
+      propertyPath: spriteName
+      value: spikes_in
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1424,6 +1488,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1338890694}
     m_Modifications:
+    - target: {fileID: 2857485153973899086, guid: 5a3a311079f41a34197ee11c704929c0, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 2857485153973899086, guid: 5a3a311079f41a34197ee11c704929c0, type: 3}
+      propertyPath: spriteName
+      value: bomb_ns
+      objectReference: {fileID: 0}
     - target: {fileID: 3693352264730592170, guid: 5a3a311079f41a34197ee11c704929c0, type: 3}
       propertyPath: m_LocalPosition.x
       value: -6.279
@@ -1533,6 +1605,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: beach_ball
       objectReference: {fileID: 0}
+    - target: {fileID: 8737015670500457437, guid: b83342472ef68dd4f9b49cd6dcde6ac3, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 8737015670500457437, guid: b83342472ef68dd4f9b49cd6dcde6ac3, type: 3}
+      propertyPath: spriteName
+      value: beach_ball
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1548,6 +1628,14 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2134053992114683520, guid: 9cb722578f6e43b459af406eaad56d07, type: 3}
       propertyPath: m_Name
+      value: spikes_in
+      objectReference: {fileID: 0}
+    - target: {fileID: 5883273434937209196, guid: 9cb722578f6e43b459af406eaad56d07, type: 3}
+      propertyPath: atlas
+      value: 
+      objectReference: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+    - target: {fileID: 5883273434937209196, guid: 9cb722578f6e43b459af406eaad56d07, type: 3}
+      propertyPath: spriteName
       value: spikes_in
       objectReference: {fileID: 0}
     - target: {fileID: 7205916679630304956, guid: 9cb722578f6e43b459af406eaad56d07, type: 3}

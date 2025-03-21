@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8488967303065095676}
   - component: {fileID: 1707065373681065886}
   - component: {fileID: 3826554545706891879}
+  - component: {fileID: 8297446579980131496}
   m_Layer: 0
   m_Name: light_circle
   m_TagString: Untagged
@@ -106,3 +107,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8297446579980131496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8942267418528238490}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 0}
+  spriteName: 

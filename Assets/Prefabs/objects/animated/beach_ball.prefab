@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 8315488830855947483}
   - component: {fileID: 3559395514195444027}
   - component: {fileID: 5869545091908134304}
+  - component: {fileID: 8737015670500457437}
   m_Layer: 0
   m_Name: beach_ball
   m_TagString: Untagged
@@ -254,3 +255,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &8737015670500457437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7114250849373478060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 0}
+  spriteName: 

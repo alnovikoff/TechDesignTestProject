@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 7205916679630304956}
   - component: {fileID: 5941945499670116547}
   - component: {fileID: 6812214250209729919}
+  - component: {fileID: 5883273434937209196}
   m_Layer: 0
   m_Name: spikes_in
   m_TagString: Untagged
@@ -107,6 +108,20 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &5883273434937209196
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134053992114683520}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 0}
+  spriteName: 
 --- !u!1 &8588674142626324709
 GameObject:
   m_ObjectHideFlags: 0
@@ -117,6 +132,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5948287003098268040}
   - component: {fileID: 7979593515060619068}
+  - component: {fileID: 3816159822927282341}
   m_Layer: 0
   m_Name: spikes_out
   m_TagString: Untagged
@@ -191,3 +207,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3816159822927282341
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8588674142626324709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 100100200, guid: d3da8e0a78c067745a1cc6cccdff4972, type: 3}
+  spriteName: spikes_out

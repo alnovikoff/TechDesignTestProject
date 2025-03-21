@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8089622325385492145}
   - component: {fileID: 4128561446434797657}
   - component: {fileID: 2373392339562499856}
+  - component: {fileID: 4826663025737102472}
   m_Layer: 0
   m_Name: liquid_particles
   m_TagString: Untagged
@@ -4830,3 +4831,17 @@ ParticleSystemRenderer:
   m_MeshWeighting2: 1
   m_MeshWeighting3: 1
   m_MaskInteraction: 0
+--- !u!114 &4826663025737102472
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3484903493524136793}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 100100200, guid: 0e0eb60e6fa347942b86626d0bce96ce, type: 3}
+  spriteName: drop

@@ -146,6 +146,7 @@ GameObject:
   - component: {fileID: 5676230453027322420}
   - component: {fileID: 6419199409853789772}
   - component: {fileID: 2895738914658486040}
+  - component: {fileID: 4340304519075295459}
   m_Layer: 5
   m_Name: orange_button
   m_TagString: Untagged
@@ -267,3 +268,17 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
+--- !u!114 &4340304519075295459
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7822515941119834946}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 0}
+  spriteName: 

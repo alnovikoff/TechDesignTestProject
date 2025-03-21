@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 2706599191924258654}
   - component: {fileID: 1141872368393836377}
   - component: {fileID: 6560154648009784861}
+  - component: {fileID: 1753090209761151949}
   m_Layer: 0
   m_Name: coin
   m_TagString: Untagged
@@ -106,3 +107,17 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1753090209761151949
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 932095833250743729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 100100200, guid: 0e0eb60e6fa347942b86626d0bce96ce, type: 3}
+  spriteName: coin

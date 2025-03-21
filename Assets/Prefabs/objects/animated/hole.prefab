@@ -15,6 +15,7 @@ GameObject:
   - component: {fileID: 6218491749355460522}
   - component: {fileID: 883312155167597623}
   - component: {fileID: 4413227456986959663}
+  - component: {fileID: 464780723966548388}
   m_Layer: 0
   m_Name: hole
   m_TagString: Untagged
@@ -312,6 +313,20 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: 36fbd8ea508f26f41a910057215b7b1c, type: 3}
   - {fileID: 8300000, guid: df0538cc84631d04b95a8df75c3afacd, type: 3}
+--- !u!114 &464780723966548388
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600907174318571764}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 0}
+  spriteName: 
 --- !u!1 &4557057711943063619
 GameObject:
   m_ObjectHideFlags: 0
@@ -322,6 +337,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1082724562276180173}
   - component: {fileID: 7835348282023944811}
+  - component: {fileID: 6927002294503566390}
   m_Layer: 0
   m_Name: mouse_down_ns
   m_TagString: Untagged
@@ -400,3 +416,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &6927002294503566390
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4557057711943063619}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 100100200, guid: 0e0eb60e6fa347942b86626d0bce96ce, type: 3}
+  spriteName: mouse_down_ns

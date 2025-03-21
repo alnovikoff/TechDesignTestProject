@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 620790608750307290}
   - component: {fileID: 9136116068036822380}
+  - component: {fileID: 4570624932621157292}
   m_Layer: 0
   m_Name: goo_1
   m_TagString: Untagged
@@ -84,6 +85,20 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &4570624932621157292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2822469547165455358}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 100100200, guid: 0e0eb60e6fa347942b86626d0bce96ce, type: 3}
+  spriteName: goo_1
 --- !u!1 &2995883987225970528
 GameObject:
   m_ObjectHideFlags: 0
@@ -98,6 +113,7 @@ GameObject:
   - component: {fileID: 1589407778166793503}
   - component: {fileID: 3142007079381954228}
   - component: {fileID: 5310777176330195317}
+  - component: {fileID: 2601872768633560089}
   m_Layer: 0
   m_Name: rad_barrel_ns 1
   m_TagString: Untagged
@@ -351,6 +367,20 @@ MonoBehaviour:
   clips:
   - {fileID: 8300000, guid: c33a083bfdf779446a6286d8624d6bc9, type: 3}
   - {fileID: 8300000, guid: c1e8cce655f354c4ca2a3250b0545bf9, type: 3}
+--- !u!114 &2601872768633560089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995883987225970528}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1afb1aa7136ddf4d92c030e95412698, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  atlas: {fileID: 0}
+  spriteName: 
 --- !u!1001 &8442428866394782238
 PrefabInstance:
   m_ObjectHideFlags: 0
